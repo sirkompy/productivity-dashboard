@@ -30,6 +30,19 @@
       "repository": "gitroomhq/postiz-app",
       "commit": "132859f32d854830ce44b509da87409c3ec10a77",
       "role": "reference implementation for publishing, scheduling and social analytics"
+    },
+    {
+      "name": "scrapecreators-social-research",
+      "repository": "ScrapeCreators/social-media-research-skills",
+      "commit": "64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2",
+      "role": "public social data research workflows: outliers, competitor research, comments, transcripts and creator teardowns",
+      "requires_env": ["SCRAPECREATORS_API_KEY"]
+    },
+    {
+      "name": "social-media-skills",
+      "repository": "social-media-skills/skills",
+      "commit": "f28cef2b7067ec64e79c9d85421c022c06659e03",
+      "role": "social-content methodology; viral reverse engineering is adapted into the local social intelligence layer"
     }
   ]
 }
