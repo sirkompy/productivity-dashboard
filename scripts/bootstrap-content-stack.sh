@@ -25,7 +25,15 @@ clone_at crawl4ai unclecode/crawl4ai cae74b203a33994f7e13b9052c3b0d5c93daa0e6
 clone_at changedetection dgtlmoon/changedetection.io 900a12032a8e15b2cfcbb8a7dc0f7a1d60f39bf3
 clone_at claude-seo AgriciDaniel/claude-seo cca7e4a267991aca880efade1fd12e8498caf2ce
 clone_at postiz gitroomhq/postiz-app 132859f32d854830ce44b509da87409c3ec10a77
+clone_at scrapecreators-social-research ScrapeCreators/social-media-research-skills 64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2
+clone_at social-media-skills social-media-skills/skills f28cef2b7067ec64e79c9d85421c022c06659e03
 
 echo
 echo "Content stack sources are available under $VENDOR"
 echo "These are pinned reference implementations; do not edit them in place."
+
+if [[ -z "${SCRAPECREATORS_API_KEY:-}" ]]; then
+  echo
+  echo "Note: SCRAPECREATORS_API_KEY is not set."
+  echo "Social intelligence skills can be installed/read, but live ScrapeCreators API collection will require this key."
+fi
