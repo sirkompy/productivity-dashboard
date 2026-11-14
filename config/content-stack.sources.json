@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-11-14",
+  "components": [
+    {
+      "name": "marketingskills",
+      "repository": "coreyhaines31/marketingskills",
+      "commit": "1f837447b20bb6f0e72d87b80ece1c221c362c7d",
+      "role": "marketing methodology: content strategy, social, competitor profiling, reverse engineering, marketing loops, AI SEO"
+    },
+    {
+      "name": "crawl4ai",
+      "repository": "unclecode/crawl4ai",
+      "commit": "cae74b203a33994f7e13b9052c3b0d5c93daa0e6",
+      "role": "web crawling and structured research ingestion"
+    },
+    {
+      "name": "changedetection",
+      "repository": "dgtlmoon/changedetection.io",
+      "commit": "900a12032a8e15b2cfcbb8a7dc0f7a1d60f39bf3",
+      "role": "competitor and market page change monitoring"
+    },
+    {
+      "name": "claude-seo",
+      "repository": "AgriciDaniel/claude-seo",
+      "commit": "cca7e4a267991aca880efade1fd12e8498caf2ce",
+      "role": "SEO, GEO and AI visibility methodology"
+    },
+    {
+      "name": "postiz",
+      "repository": "gitroomhq/postiz-app",
+      "commit": "132859f32d854830ce44b509da87409c3ec10a77",
+      "role": "reference implementation for publishing, scheduling and social analytics"
+    }
+  ]
+}
