@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "user": {
+    "pk": "123",
+    "username": "example",
+    "full_name": "Example Creator",
+    "follower_count": 1000
+  },
+  "items": [
+    {
+      "pk": "456",
+      "code": "Example01",
+      "taken_at": 1735689600,
+      "caption": { "text": "A public example" },
+      "media_type": 2,
+      "play_count": 5000,
+      "like_count": 100,
+      "comment_count": 5
+    }
+  ],
+  "more_available": false
+}

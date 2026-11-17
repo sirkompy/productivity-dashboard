@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "data": {
+    "name": "Example Person",
+    "publicIdentifier": "example",
+    "followersCount": 2000,
+    "recentPosts": [
+      {
+        "id": "urn:li:activity:123",
+        "url": "https://www.linkedin.com/posts/example_activity-123/",
+        "publishedAt": "2025-01-01T00:00:00Z",
+        "text": "Public example",
+        "type": "text",
+        "likes": 50,
+        "comments": 4,
+        "reposts": 2
+      }
+    ]
+  }
+}
